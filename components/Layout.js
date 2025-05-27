@@ -18,7 +18,7 @@ export default function Layout(props) {
           <a>People</a>
         </Link>
       </nav>
-      <GithubCorner />
+      {/* <GithubCorner /> */}
       <div id="main">{props.children}</div>
       <footer>
         <a href="http://sanity.io">
